@@ -1,0 +1,33 @@
+.mainpage{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.section1{
+  width: 20%;
+  background-color: aqua;
+}
+.main{
+  width: 60%;
+  background-color: aquamarine;
+}
+.section2{
+  width: 20%;
+  background-color: bisque;
+}
+@media (max-width: 800px) {
+  .mainpage{
+    flex-direction: column;
+  }
+  .section1{
+    width: 100%;
+  }
+  .main{
+    width: 100%;
+  }
+  .section2 {
+    visibility: hidden;
+
+  }
+}
